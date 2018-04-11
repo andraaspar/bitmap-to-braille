@@ -1,0 +1,10 @@
+/.gitignore
+/.vscode
+/*.ts
+/smiley.png
+/node_modules
+/test.js
+
+!/*.d.ts
+
+/test.d.ts

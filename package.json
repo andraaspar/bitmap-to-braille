@@ -1,0 +1,29 @@
+{
+	"name": "bitmap-to-braille",
+	"version": "1.0.0",
+	"description": "Bitmap to unicode braille converter",
+	"main": "index.js",
+	"author": {
+		"name": "András Parditka"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/andraaspar/bitmap-to-braille.git"
+	},
+	"bugs": {
+		"url": "https://github.com/andraaspar/bitmap-to-braille/issues"
+	},
+	"homepage": "https://github.com/andraaspar/bitmap-to-braille#readme",
+	"devDependencies": {
+		"ava": "^0.25.0",
+		"del-cli": "^1.1.0",
+		"jimp": "^0.2.28",
+		"rimraf": "^2.6.2",
+		"typescript": "^2.8.1"
+	},
+	"scripts": {
+		"compile": "rimraf *.js *.d.ts && tsc",
+		"test": "yarn run compile && ava"
+	}
+}
